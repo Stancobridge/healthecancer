@@ -5283,7 +5283,7 @@ ul {
   background: #101010;
   line-height: 100px;
   margin-right: 0px;
-  color: #f57d4a;
+  color: #00adef;
   margin-left: 0px;
   margin: 0 auto;
   border-radius: 50%;
@@ -8075,4 +8075,26 @@ h4 {
 .tp-header-style-2 .navigation a {
   color: #00adef !important;
   font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery-section .masonry-gallery {
+    position: relative !important;
+    height: auto !important;
+  }
+  .gallery-section .masonry-gallery .grid {
+    position: relative !important;
+    top: initial !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery-section .masonry-gallery {
+    position: relative !important;
+    height: auto !important;
+  }
+  .gallery-section .masonry-gallery .grid {
+    position: relative !important;
+    top: initial !important;
+  }
 }
