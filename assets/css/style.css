@@ -8070,5 +8070,9 @@ h4 {
 }
 
 .tp-header-style-2 .navigation {
-  background: #525252 !important;
+  background: #ffffff !important;
+}
+.tp-header-style-2 .navigation a {
+  color: #00adef !important;
+  font-weight: bold;
 }
